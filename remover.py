@@ -9,7 +9,7 @@ import datetime
 import pytz
 
 REQUIRED_CONFIGS = ['api_id', 'api_hash', 'username', 'phone']
-DEFAULT_DAYS = 60
+DEFAULT_DAYS = [60]
 
 
 def parse_config(args) -> Union[Dict[str, str], None]:
